@@ -1,8 +1,10 @@
-# Vesktop (with supermium electron)
+# Vesktop (with Supermium Electron)
 Re-packaged version of Vencord's desktop for older windows versions (example: 7 - 8.1).
 
 # disclaimer
-This is not intended to keep using end-of-life Windows versions. You're still highly recommended to use a supported one such as Windows 10 or 11 (or even try Linux?). Using them can have security issues and i wouldn't recommend having a daily driver with those releases. This repo is not affiliated with the regular Vesktop or Vencord devs at all and support for it should not be requested in Vencord's server.
+This is not intended to keep using end-of-life Windows versions. 
+
+You're still highly recommended to use a supported one such as Windows 10 or 11 (or even try Linux?). Using them can have security issues and i wouldn't recommend having a daily driver with those releases. This repo is not affiliated with the regular Vesktop or Vencord devs at all and support for it should not be requested in Vencord's server.
 
 # Supported versions
 Because Supermium Electron fork intends to support EOL releases of windows, the Re-packaged application can run on the following:
