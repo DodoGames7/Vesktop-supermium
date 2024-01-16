@@ -12,8 +12,8 @@ Because Supermium Electron fork intends to support EOL releases of windows, the 
 * Windows 8.1 (and prolly 8.0)
 
 At the moment, earlier versions aren't supported without modifications. Those include:
-* Windows Vista Service pack 3 (with extended kernel)
-* Windows XP Service pack 3 (64-bit professional with one-core API)
+* Windows Vista Service pack 2 ( 64-bit with Extended Kernel)
+* Windows XP Service pack 3 (64-bit professional with One-Core-API)
 
 # Re-producing yourself
 It is possible to make Vesktop compatible with older Windows versions using supermium electron's archive:
