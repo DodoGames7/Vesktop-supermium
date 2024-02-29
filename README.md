@@ -52,12 +52,12 @@ For people dual booting Linux with EOL Windows. This is currently only tested wi
 3. Copy both of `settings.json` and `state.json` file to else somewhere such as a USB
 
 #### Note
-If you have access to Windows files shown on a hard drive in your Linux then just copy both of the files and open app data of the Windows hard drive with just then only doing step 7 and 8
+If you have access to Windows files shown on a hard drive in your Linux then just copy both of the files and open app data of the Windows hard drive with just then only doing step 6 and 7
    
-5. Restart your system and go to grub to boot into the EOL windows
-6. On the EOL Windows, press the Windows key + R and enter `%APPDATA%`
-7. Enter into the `vesktop` directory
-8. Place both of the files you copied somewhere else inside of the directory
+4. Restart your system and go to grub to boot into the EOL windows
+5. On the EOL Windows, press the Windows key + R and enter `%APPDATA%`
+6. Enter into the `vesktop` directory
+7. Place both of the files you copied somewhere else inside of the directory
 
 Now once you have followed the steps, Vesktop will now run there normally.
 
