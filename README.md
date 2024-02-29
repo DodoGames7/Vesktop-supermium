@@ -34,17 +34,14 @@ It is possible to make Vesktop compatible with older Windows versions using supe
 There's a chance that opening the Re-packaged application can have a empty/invisible window for first launch window. This can be bypassed by applying a two files to Vencord Desktop's appData folder:
 
 ### On dual-boot install
+This method is for people who dual boot Windows 10/11 with EOL windows versions like 7
+
 1. On a regular windows supported install with Vesktop installed, Press the Windows key + R and enter `%APPDATA%` respectively
 2. Enter into the `vesktop` directory
-3. Copy the `settings.json` and `state.json` file to else somewhere so that you can use it again
-4. Repeat the same steps on another version of windows and place both of the files inside of the same directory where you obtained the files from on another windows install
+3. Copy the `settings.json` and `state.json` file to else somewhere so that you can use it again (such as a USB)
+4. Repeat the same steps on another version of windows and place both of the files inside of the same directory where you obtained the files from the other windows install
 5. You're all set, the application should now launch normally.
 
-
-
-
-### On Single install
-You can obtain a pre-ready `settings.json` file from [Releases](https://github.com/DodoGames7/Vesktop-supermium/releases).
 
 
 
