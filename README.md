@@ -31,17 +31,31 @@ It is possible to make Vesktop compatible with older Windows versions using supe
  You're done after that. Vesktop should now run on old Windows versions!
 
 # Blank window
-There's a chance that opening the Re-packaged application can have a empty/invisible window for first launch window. This can be bypassed by applying a two files to Vencord Desktop's appData folder:
+There's a chance that opening the Re-packaged application can have a empty/invisible window for first launch window. This can be fixed by applying a two files to Vencord Desktop's appData folder:
 
-### On dual-boot install
-This method is for people who dual boot Windows 10/11 with EOL windows versions like 7
+## On dual-boot install
+This method is for people who dual boot Windows 10/11 with EOL windows versions like 7.
 
+### Windows
 1. On a regular windows supported install with Vesktop installed, Press the Windows key + R and enter `%APPDATA%` respectively
 2. Enter into the `vesktop` directory
 3. Copy the `settings.json` and `state.json` file to else somewhere so that you can use it again (such as a USB)
 4. Repeat the same steps on another version of windows and place both of the files inside of the same directory where you obtained the files from the other windows install
-5. You're all set, the application should now launch normally.
 
+You're all set, the application should now launch normally.
+
+### Linux
+For people dual booting Linux with EOL windows. This is currently only tested with Debian but if this works on other distros then you're all fine.
+
+1. Open an file manager from your distro
+2. Go to `~/.config/Vesktop` folder
+3. Copy both of `settings.json` and `state.json` file to else somewhere such as a USB
+4. Restart your system and go to grub to boot into the EOL windows
+5. On the EOL windows, press the Windows key + R and enter `%APPDATA%`
+6. Enter into the `vesktop` directory
+7. Place both of the files you copied somewhere else inside of the directory
+
+Now once you have followed the steps, Vesktop will now run there normally.
 
 
 
