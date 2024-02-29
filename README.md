@@ -1,5 +1,5 @@
 # Vesktop (with Supermium Electron)
-Re-packaged version of Vencord's desktop for older windows versions (example: 7 - 8.1).
+Re-packaged version of Vencord's desktop for older Windows versions (example: 7 - 8.1).
 
 # disclaimer
 This is not intended to keep using end-of-life Windows versions. 
@@ -7,7 +7,7 @@ This is not intended to keep using end-of-life Windows versions.
 You're still highly recommended to use a supported one such as Windows 10 or 11 (or even try Linux?). Using them can have security issues and i wouldn't recommend having a daily driver with those releases. This repo is not affiliated with the regular Vesktop or Vencord devs at all and support for it should not be requested in Vencord's official server.
 
 # Supported versions
-Because Supermium Electron fork intends to support EOL releases of windows, the Re-packaged application can run on the following:
+Because Supermium Electron fork intends to support EOL releases of Windows, the Re-packaged application can run on the following:
 * Windows 7
 * Windows 8.1 (and prolly 8.0)
 
@@ -34,26 +34,30 @@ It is possible to make Vesktop compatible with older Windows versions using supe
 There's a chance that opening the Re-packaged application can have a empty/invisible window for first launch window. This can be fixed by applying a two files to Vencord Desktop's appData folder:
 
 ## On dual-boot install
-This method is for people who dual boot Windows 10/11 with EOL windows versions like 7.
+This method is for people who dual boot Windows 10/11 with EOL Windows versions like 7.
 
 ### Windows
-1. On a regular windows supported install with Vesktop installed, Press the Windows key + R and enter `%APPDATA%` respectively
+1. On a regular Windows supported install with Vesktop installed, Press the Windows key + R and enter `%APPDATA%` respectively
 2. Enter into the `vesktop` directory
 3. Copy the `settings.json` and `state.json` file to else somewhere so that you can use it again (such as a USB)
-4. Repeat the same steps on another version of windows and place both of the files inside of the same directory where you obtained the files from the other windows install
+4. Repeat the same steps on another version of Windows and place both of the files inside of the same directory where you obtained the files from the other Windows install
 
 You're all set, the application should now launch normally.
 
 ### Linux
-For people dual booting Linux with EOL windows. This is currently only tested with Debian but if this works on other distros then you're all fine.
+For people dual booting Linux with EOL Windows. This is currently only tested with Debian but if this works on other distros then you're all fine.
 
 1. Open an file manager from your distro
 2. Go to `~/.config/Vesktop` folder
 3. Copy both of `settings.json` and `state.json` file to else somewhere such as a USB
-4. Restart your system and go to grub to boot into the EOL windows
-5. On the EOL windows, press the Windows key + R and enter `%APPDATA%`
-6. Enter into the `vesktop` directory
-7. Place both of the files you copied somewhere else inside of the directory
+
+#### Note
+If you have access to Windows files shown on a hard drive in your Linux then just copy both of the files and open app data of the Windows hard drive with just then only doing step 7 and 8
+   
+5. Restart your system and go to grub to boot into the EOL windows
+6. On the EOL Windows, press the Windows key + R and enter `%APPDATA%`
+7. Enter into the `vesktop` directory
+8. Place both of the files you copied somewhere else inside of the directory
 
 Now once you have followed the steps, Vesktop will now run there normally.
 
